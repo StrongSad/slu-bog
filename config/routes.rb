@@ -1,18 +1,20 @@
 Rails.application.routes.draw do
 
-  get 'creatures/index'
+   root 'home#index'
 
-  get 'creatures/create'
+  # get 'creatures/index'
 
-  get 'creatures/new'
+  # get 'creatures/create'
 
-  get 'creatures/edit'
+  # get 'creatures/new'
 
-  get 'creatures/show'
+  # get 'creatures/edit'
 
-  get 'creatures/update'
+  # get 'creatures/show'
 
-  get 'creatures/destroy'
+  # get 'creatures/update'
+
+  # get 'creatures/destroy'
 
   resources :creatures
   # The priority is based upon order of creation: first created -> highest priority.
